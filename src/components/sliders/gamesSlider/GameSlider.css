@@ -1,45 +1,47 @@
+.divSlider {
+  margin-top: 20px;
+}
+
 .divSlider img {
   position: relative;
   left: 5%;
 }
-.divSlider {
-  margin-top: 20px;
-}
+
 .divSlider img:hover {
   transform: translateY(-10%);
   transition: 0.3s all;
 }
+
 .divSlider .selected {
   border: 4px solid rgba(90, 90, 233, 0.859);
 }
+
 .divSlider .notSelected {
   opacity: 0.85;
 }
+
 .imageContainer {
    position: relative;
   display: inline-block;
 }
-.helldiversSlide,
-.finalFantasySlide,
-.foamstarsSlide,
-.tekken8Slide,
-.callofdutySlide,
-.suicideSquadSlide,
-.honkaiStarrailSlide {
+
+.helldiversSlide{
   position: absolute;
-  top: 40%;
-  left: 25%;
   transform: translate(-30%, -10%);
+  top: 30%;
+  left: 15%;
 }
 .helldiversSlide h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 40px;
-  color: rgb(255, 255, 255);
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.945);
   margin: 0;
 }
 .helldiversSlide p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.945);
   font-size: 20px;
   margin: 0;
 }
@@ -59,20 +61,28 @@
 .helldiversSlide button:hover {
   opacity: 0.8;
 }
+
 .finalFantasySlide {
-  top: 50%;
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 28%;
+  left: 20%;
 }
+
 .finalFantasySlide h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 40px;
-  color: rgb(54, 51, 51);
+  color: rgba(255, 255, 255, 0.945);
+  font-style: oblique;
   margin: 0;
 }
 .finalFantasySlide p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(54, 51, 51);
+  font-style: oblique;
   font-size: 20px;
   margin: 0;
+  margin-top: 12px;
 }
 .finalFantasySlide button {
   padding: 15px 20px;
@@ -87,3 +97,196 @@
   letter-spacing: 0.5px;
   font-weight: bold;
 }
+.finalFantasySlide button:hover{
+  opacity: 0.8;
+}
+
+.foamstarsSlide {
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 25%;
+  left: 15%;
+}
+.foamstarsSlide h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(54, 51, 51);
+  margin: 0;
+}
+.foamstarsSlide p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(54, 51, 51);
+  font-size: 20px;
+  font-style: oblique;
+  margin: 0;
+}
+.foamstarsSlide button{
+  padding: 15px 20px;
+  background-color: rgba(55, 55, 246, 0.891);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.foamstarsSlide button:hover{
+  opacity: 0.8;
+}
+
+.tekken8Slide{
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 28%;
+  left: 20%;
+}
+.tekken8Slide h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.945);
+  margin: 0;
+}
+.tekken8Slide p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.945);
+  font-style: oblique;
+  font-size: 20px;
+  margin: 0;
+}
+.tekken8Slide button {
+  padding: 15px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.tekken8Slide button:hover{
+  opacity: 0.8;
+}
+
+.callofdutySlide{
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 25%;
+  left: 22%;
+}
+.callofdutySlide h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.945);
+  margin: 0;
+}
+.callofdutySlide p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.945);
+  font-size: 20px;
+  font-style: oblique;
+  margin: 0;
+}
+.callofdutySlide button {
+  padding: 15px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.callofdutySlide button:hover{
+  opacity: 0.8;
+}
+
+.suicideSquadSlide{
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 20%;
+  left: 23%;
+}
+.suicideSquadSlide img{
+  width: 150px;
+  height: 15vh;
+}
+.suicideSquadSlide h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(54, 51, 51);
+  margin: 0;
+}
+.suicideSquadSlide p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(54, 51, 51);
+  font-size: 20px;
+  font-style: oblique;
+  margin: 0;
+}
+.suicideSquadSlide button{
+  padding: 15px 20px;
+  background-color: rgba(55, 55, 246, 0.891);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.suicideSquadSlide button:hover{
+  opacity: 0.8;
+}
+
+.honkaiStarrailSlide{
+  position: absolute;
+  transform: translate(-30%, -10%);
+  top: 18%;
+  left: 20%;
+}
+.honkaiStarrailSlide h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgba(255, 255, 255, 0.945);
+  margin: 0;
+}
+.honkaiStarrailSlide p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.945);
+  font-size: 20px;
+  font-style: oblique;
+  margin: 0;
+}
+.honkaiStarrailSlide button {
+  padding: 15px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 150px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+.honkaiStarrailSlide button:hover{
+  opacity: 0.8;
+}
+
