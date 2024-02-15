@@ -1,0 +1,46 @@
+.slick-dots li:active{
+    background-color: darkblue ;
+}
+
+.slick-dots li{
+    background-color: lightblue;
+}
+.prev{
+    float: right;
+}
+.next{
+    float: left;
+}
+
+.carousel{
+    position: absolute;
+    z-index: -1;
+    border: 2px solid yellow;
+}
+.next_prev_btn{
+    position: relative;
+    bottom: 150px;
+    z-index: 3;
+    height: 22vh;
+    background: transparent;
+}
+.slider{
+    position: relative;
+    bottom: 360px;
+    z-index: 2;
+    height: 22vh;
+}
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.cards .selected{
+    border: 4px solid rgba(68, 149, 255, 0.918);
+
+}
+.cards .contSelected{
+    color: rgba(68, 149, 255, 0.918);
+}
