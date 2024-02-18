@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Carousel } from "antd";
-import {carouselData , sliderImages , contentStyle , sliderStyle} from "../gamesSlider/GameSlider.js"
+import {carouselData , sliderImages , contentStyle , sliderStyle} from "../gamesSlider/GameSlider.js";
 import "./GameSlider.css";
 
 const GameSlider = () => {

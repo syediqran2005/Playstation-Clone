@@ -1,0 +1,143 @@
+.games{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(26, 24, 24);
+}
+h1.title {
+    position: relative;
+    top: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-style:oblique;
+    color: rgba(255, 255, 255, 0.793);
+}
+.newreleasesBtn, .comingsoonBtn {
+    position: relative;
+    margin-top: 3%;
+    left: 40%;
+}
+.gameContainer{
+    position: relative;
+    top: 5%;
+    display: inline-block;
+    flex-direction: column;
+    
+}
+.gameContainer img {
+    width: 220px;
+    height: 35vh;
+    border-radius: 20px;
+}
+.hogwartsGame{
+    position: relative;
+    left: 25%;
+}
+.spiderman2Game{
+    position: relative;
+    left: 35%;
+}
+.tekken8Game{
+ position: relative;
+ left: 45%;
+}
+.footballGame{
+    position: relative;
+    left: 55%;
+}
+.suicidesquadGame{
+    position: relative;
+    left: 54%;
+}
+.helldiversGame{
+    position: relative;
+    left: 54%;
+}
+.godofwarGame{
+    position: relative;
+    left: 25%;
+}
+.thelastofusGame{
+    position: relative;
+    left: 35%;
+}
+.dragonGame{
+    position: relative;
+    left: 45%;
+}
+.finalfantasyGame{
+    position: relative;
+    left: 52%;
+}
+.callofdutyGame{
+    position: relative;
+    left: 50%;
+}
+.fortniteGame{
+    position: relative;
+    left: 48%;
+}
+.hogwartstitle{
+    position: relative;
+    left: 25%;
+    color: white;
+}
+.spiderman2title{
+    position: relative;
+    left: 35%;
+    color: white;
+}
+.tekken8title{
+    position: relative;
+    left: 50%;
+    color: white;
+}
+.footballtitle{
+    position: relative;
+    left: 55%;
+    color: white;
+}
+.suicidesquadtitle{
+    position: relative;
+    left: 48%;
+    font-size: 18px;
+    color: white;
+}
+.helldiverstitle{
+    position: relative;
+    left: 63%;
+    color: white;
+
+}
+.godofwartitle{
+    position: relative;
+    left: 25%;
+    color: white;
+}
+.thelastofustitle{
+    position: relative;
+    left: 35%;
+    color: white;
+}
+.dragontitle{
+    position: relative;
+    left: 44%;
+    font-size: 17px;
+    color: white;
+}
+.finalfantasytitle{
+    position: relative;
+    left: 55%;
+    color: white;
+}
+.callofdutytitle{
+    position: relative;
+    left: 42%;
+    font-size: 18px;
+    color: white;
+}
+.fortnitetitle{
+    position: relative;
+    left: 56%;
+    color: white;
+
+}

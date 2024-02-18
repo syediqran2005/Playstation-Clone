@@ -1,15 +1,15 @@
-import GameSlider from './components/sliders/gamesSlider/GameSlider';
-import ProductSlider from './components/sliders/productSlider/ProductSlider.jsx'
+import GameSlider from './components/sliders/gamesSlider/GameSlider.jsx';
+import ProductSlider from './components/sliders/productSlider/ProductSlider.jsx';
+import Games from './components/Games/Games.jsx';
 
 function App() {
 
   return (
     <>
       <div>
-        <GameSlider />
-      </div>
-      <div>
+        <GameSlider /> <br />
         <ProductSlider />
+        <Games />
       </div>
     </>
   )
