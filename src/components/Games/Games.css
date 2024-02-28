@@ -21,7 +21,7 @@ h1.title {
     top: 5%;
     display: inline-block;
     flex-direction: column;
-    
+    transition: transform opacity 0.3s ease;
 }
 .gameContainer img {
     width: 220px;
@@ -139,5 +139,128 @@ h1.title {
     position: relative;
     left: 56%;
     color: white;
+}
+.gameContainer.selected img{
+    opacity: 0.6;
+    box-shadow: 0px 0px 5px red;
+    transform: scaleX(1.1);
+}
 
+.pacificGame{
+    position: relative;
+    left: 25%;
+}
+.finalfantasyGame2{
+    position: relative;
+    left: 35%;
+}
+.thepluckyGame{
+ position: relative;
+ left: 45%;
+}
+.theroninGame{
+    position: relative;
+    left: 55%;
+}
+.skullandbonesGame{
+    position: relative;
+    left: 64%;
+}
+.silenthillGame{
+    position: relative;
+    left: 73%;
+}
+.xdefiantGame{
+    position: relative;
+    bottom: 20%;
+    left: -27%;
+}
+.stellarbladeGame{
+    position: relative;
+    left: 25%;
+}
+.allinthedarkGame{
+    position: relative;
+    left: 35%;
+}
+.deathstrandingGame{
+    position: relative;
+    left: 36%;
+}
+.dragonsdogmaGame{
+    position: relative;
+    left: 33%;
+}
+.untildawnGame{
+    position: relative;
+    left: 42%;
+}
+.pacifictitle{
+    position: relative;
+    left: 25%;
+    color: white;
+}
+.finalfantasy2title{
+    position: relative;
+    left: 35%;
+    color: white;
+}
+.thepluckytitle{
+    position: relative;
+    left: 50%;
+    color: white;
+}
+.theronintitle{
+    position: relative;
+    left: 55%;
+    color: white;
+}
+.skullandbonestitle{
+    position: relative;
+    left: 48%;
+    font-size: 18px;
+    color: white;
+}
+.silenthilltitle{
+    position: relative;
+    left: 63%;
+    color: white;
+
+}
+.xdefianttitle{
+    position: relative;
+    left: 25%;
+    color: white;
+}
+.stellarbladetitle{
+    position: relative;
+    left: 35%;
+    color: white;
+}
+.allinthedarktitle{
+    position: relative;
+    left: 44%;
+    font-size: 17px;
+    color: white;
+}
+.deathstrandingtitle{
+    position: relative;
+    left: 55%;
+    color: white;
+}
+.dragonsdogmatitle{
+    position: relative;
+    left: 42%;
+    font-size: 18px;
+    color: white;
+}
+.untildawntitle{
+    position: relative;
+    left: 56%;
+    color: white;
+}
+
+.active{
+    background-color: white;
+    color: black;
 }
